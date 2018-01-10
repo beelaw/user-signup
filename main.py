@@ -29,7 +29,7 @@ def sign():
     if ' ' in name or len(name) < 3 or len(name) >20:
         username_error = "Username must have no spaces and be between 3 and 20 characters long"
     if ' ' in password or len(password) < 3 or len(password) >20:
-        password_error = "Username must have no spaces and be between 3 and 20 characters long"
+        password_error = "Password must have no spaces and be between 3 and 20 characters long"
 
     if not password == verify_password:
         password_error = "Passwords must match"
